@@ -1,0 +1,9 @@
+<!DOCTYPE tiendas [
+<!ELEMENT tiendas (nombre,direccion,distribuidor*,movil+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST nombre idnombre ID #REQUIRED>
+<!ATTLIST direccion idnombre ID #REQUIRED>
+<!ELEMENT distribiudor (#PCDATA)>
+<!ELEMENT movil (codigo_modelo,marca,caracteristicas)>
+]>

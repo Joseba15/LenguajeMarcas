@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+	<h1 align="center">SOLICITUD DE EMPLEO</h1>
+	<form method="post">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<p>Nombre: <input type="text" name="nombre" placeholder="Escriba su nombre"></p>
+			<p>Apellidos: <input type="text" name="apellidos"placeholder="Escriba sus apellidos"></p>
+            <p>DNI: <input type="text" name="nombre" placeholder="Escriba su DNI"></p>
+			<p>Edad: <input type="number" name="edad" placeholder="Indique su edad"></p>
+			<p>Correo electronico: <input type="email" name="correo" placeholder="Indique su correo"></p>
+		
+			<p>Hablanos de ti y cuentanos su exp laboral:</p>
+			<textarea name="texto" rows="10" cols="100" value="Escriba aqui" maxlength="700"></textarea>
+			
+		</fieldset>
+		<br>
+
+		<fieldset>
+			<legend>Formacion profesional</legend>
+			<p> Formacion: <input type="text" name="formacion1"></p>
+			<p> Lugar: <input type="text" name="lugar1"></p>
+			<p>Fecha Inicio <input type="date" name="fechaini1">/Fecha Fin <input type="date" name="fechafin1"></p>
+			<br>
+		</fieldset>
+		<br>
+
+		<fieldset>
+			<legend>Idiomas</legend>
+			<p>Idioma1: <input type="text" name="idioma1" placeholder="Escriba aqui">
+
+			<input type="radio" name="boton">B1 
+			<input type="radio" name="boton">B2 
+			<input type="radio" name="boton">C1 
+			<input type="radio" name="boton">C2 
+			<br>
+			<br>
+
+			Idioma2: <input type="text" name="idioma1" placeholder="Escriba aqui">
+
+			<input type="radio" name="boton">B1
+			<input type="radio" name="boton">B2
+			<input type="radio" name="boton">C1 
+			<input type="radio" name="boton">C2 <br>
+			<br>
+
+			Idioma3: <input type="text" name="idioma1" placeholder="Escriba aqui">
+
+			<input type="radio" name="boton">B1
+			<input type="radio" name="boton">B2
+			<input type="radio" name="boton">C1
+			<input type="radio" name="boton">C2 <br>
+		</p>
+
+		</fieldset>
+		<br>
+		<p><button type="reset"> Borrar todo</button> <button type="submit" name="correo">Enviar</button></p>
+	</form>
+</body>
+</html>

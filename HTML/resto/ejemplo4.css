@@ -1,0 +1,14 @@
+/*p a { color:red }*/
+
+/*
+.color{ color: red; }
+.miestilo{font-size: 15px;}
+.detalle{font-weight: bold;}
+
+
+p > span { color: blue; }
+*/
+h2 { color: green; }
+
+h1 + h2 { color: red;  }
+

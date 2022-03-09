@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<partidos>
+    <partido>
+        <nombreLocal goles=3 equipo="Real Madrid"></nombreLocal>
+        <nombreVisitante goles=0 equipo="Barcelona"></nombreVisitante>
+        
+    </partido>
+    <partido>
+        <nombreLocal goles=1 equipo="Sevilla" ></nombreLocal>
+        <nombreVisitante goles=1 equipo="Betis"></nombreVisitante>
+    </partido>
+    <partido>
+        <nombreLocal goles=0 equipo="Granada"></nombreLocal>
+        <nombreVisitante goles=2 equipo="Real Sociedad" ></nombreVisitante>        
+    </partido>
+</partidos>

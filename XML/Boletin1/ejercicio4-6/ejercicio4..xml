@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <lang>en</lang>
+        <title>Everyday Italian </title>
+        <author>Giada De Laurentiis</author>
+        <year>2005</year>
+        <price>30</price>
+        <category>cooking</category>
+    </book>
+    <book>
+        <lang>en</lang>
+        <title>Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+        <category>children</category>
+    </book>
+    <book>
+        <lang>en</lang>
+        <title>XQuery Kick Start</title>
+        <author>(James McGovern,Per Bothner,Kurt Cagle,James Linn,Vaidyanathan Nagarajan)</author>
+        <year>2003</year>
+        <price>49.99</price>
+        <category>WEB</category>
+    </book>
+    <book>
+        <lang>en</lang>
+        <title>Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+        <category>WEB</category>
+    </book>
+</books>

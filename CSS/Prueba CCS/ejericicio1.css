@@ -1,0 +1,14 @@
+h1{color:cadetblue}
+a,strong{color: red;}
+#adicional {color: olive;}
+#adicional a {color:green}
+#adicional #especial {color: fuchsia;}
+strong {color: red;}
+.destacado{color:orange;}
+h2,caption{color : blue}
+a em {color:blue}
+td {color: green}
+td strong {color:orange}
+span.especial {color:purple}
+.especial{color:orange}
+th {color:red}

@@ -1,0 +1,27 @@
+#div1{
+    border: 3px outset orange;
+    background-color: grey;
+    text-align: center;
+}
+#div2{
+    padding-top: 10px;
+    border: 3px outset red;
+    background-color: grey;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+#div1:hover{
+    background: white;
+}
+#div2:hover{
+    background: white;
+}
+input:checked + label {
+    color: red;
+}
+.blue-input:focus {
+    background: yellow;
+    color: blue;
+  }

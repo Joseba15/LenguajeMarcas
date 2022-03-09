@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura num="999">
+        <fecha>12-01-2005</fecha>
+        <numPedido>731</numPedido>
+        <formaPago>EFECTIVO</formaPago>
+        <datosEmpresa>
+            <nombreEmpresa>Equipos Digitales S.L.</nombreEmpresa>
+            <direccion>Av. Valladolid</direccion>
+            <ciudad>Madrid 28015</ciudad>
+            <cif>Q-9876543 </cif>
+            <telefono>91.777.66.88</telefono>
+            <fax>91.777.66.99</fax>
+        </datosEmpresa>
+        <datosCliente>
+            <numCliente>879</numCliente>
+            <nombre>Darío Bueno Gutiérrez</nombre>
+            <direccionEnvio>Av. Oporto nº7 4ºd</direccionEnvio>
+            <poblacion>Madrid</poblacion>
+            <codPostal>28043</codPostal>
+            <provinicia>Madrid</provinicia>
+        </datosCliente>
+        <productos>
+                <datosFactura>
+                    <REF>MII93000F/8</REF>
+                    <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+                    <cantidad>1</cantidad>
+                    <precio>230</precio>
+                    <iva>16</iva>
+                    <importe>266,80</importe>
+                </datosFactura>
+                <datosFactura>
+                    <REF>MB8QDIP4</REF>
+                    <descripcion>PLACA BASE QDI P4</descripcion>
+                    <cantidad>1</cantidad>
+                    <precio>180</precio>
+                    <iva>16</iva>
+                    <importe>208,80</importe>
+                </datosFactura>
+                <datosFactura>
+                    <REF>MEDD512M32</REF>
+                    <descripcion>DIMM DDR 512MB 3200</descripcion>
+                    <cantidad>2</cantidad>
+                    <precio>40</precio>
+                    <iva>16</iva>
+                    <importe>92,80</importe>
+                </datosFactura>
+                <datosFactura>
+                    <REF>HD250GSA7</REF>
+                    <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+                    <cantidad>4</cantidad>
+                    <precio>120</precio>
+                    <iva>16</iva>
+                    <importe>556,80</importe>
+                </datosFactura> 
+        </productos>
+        <baseDisponible>970,00</baseDisponible>
+        <ivaPorcentaje>16,0</ivaPorcentaje>
+        <cuotaIVA>155,20</cuotaIVA>
+        <totaFactura> 1125,20</totaFactura>
+    </factura>
+</facturas>

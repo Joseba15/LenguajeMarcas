@@ -1,0 +1,5 @@
+h1{color: teal;}
+a,strong {color: red;}
+#adicional {color: olive;}
+#adicional a {color:green}
+#adicional #especial {color: fuchsia;}

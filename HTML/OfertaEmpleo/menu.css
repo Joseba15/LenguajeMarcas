@@ -1,0 +1,34 @@
+h2 {
+    margin-left: 40px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+img{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+p{
+    margin-left: 40px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+div{
+    border: 1.2px outset #33c4ff;
+    background-color: #2183FF;    
+    text-align: center;
+    margin: 3px;
+    margin-left: 1720px;
+    
+}
+div.abajo{
+    margin-bottom:100px ;
+}
+h1 {
+    align-content: center;
+    font-family: sans-serif;
+    margin-left: 720px;
+}
+

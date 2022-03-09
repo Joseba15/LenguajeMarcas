@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(245, 243, 243);
+} 
+h1{
+    font-family:Klavika;
+    color: rgb(0, 119, 255);
+    font-size: 5em;
+    padding-top: 3cm;
+}  
+p{
+    font-family:Arial;
+    font-size: 30px;
+}
+.td2{
+    padding-left: 35px;
+}
+.td1{
+
+    padding-right : 35px;
+
+}
+form{
+    padding-top: 2cm;
+
+}
+fieldset{
+    background: white;
+    border-radius: 10px;
+    border-color: white;
+}
+#correo,#password{min-height: 2em;}
+#correo {padding-top: 2px;}
+button{color: white;
+        background-color: rgb(0, 119, 255);    
+        border-radius: 5px;
+        font-family: Arial;
+        min-height: 3em;
+        min-width: 26em;
+        border-color:rgb(0, 119, 255) ;
+}
