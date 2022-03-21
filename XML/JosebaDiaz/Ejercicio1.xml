@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<futbolistas>
+<futbolista id="1">
+	<equipo equi="Betis"></equipo>
+	<procedencia> ESP </procedencia>
+	<nombre>Joaquín</nombre>
+	<apellidos>Sánchez</apellidos>
+	<http>joaquinsanchez.com</http>
+</futbolista>
+<futbolista id="2">
+	<equipo equi="Sevilla"></equipo>
+	<procedencia>ESP</procedencia>
+	<nombre>Jesús</nombre>
+	<apellidos>Navas</apellidos>
+	<http>jesusnavas.org</http>
+</futbolista>
+</futbolistas>
+<!--Linea 1: la primera etiqueta lo cierra con la "/"" ; esto es incorrecto,lo sustituimos el "/" por el signo "?"-->
+<!--Linea 2: deberia haber una etiqueta raiz que contenga los futbolistas y tambien existe un espacio en blanco en la etiqueta de inicio de futbolista-->
+<!--Linea 3: las comillas dobles del id de futbolista no son las correctas, habria que modificarlas-->
+<!--Linea 4: hay un valor de atributo sin comillas dobles ni tiene un atributo asignado, yo le he asignado "equi",y tambien hay un espacio en blanco -->
+<!--Linea 5: hay un espacio en blanco-->
+<!--Linea 7: el nombre de la etiqueta de inicio no concuerda con la etiqueta de fin, yo le he asignado "apellidos"-->
+<!--Linea 8: en las etiqutas no puede haber caracteres especiales como la "/" y el ":", tambien hay un espacio en blanco-->
+<!--Linea 9: en las etiquetas de cierre no tienen nunca atributos-->
+<!--Linea 10: las comillas dobles del id de futbolista no son las correctas, habria que modificarlas y hay un espacio en blanco-->
+<!--Linea 11: solo le falta el nombre del atributo,le he asignado "equi" y hay varios espacios en blanco--> 
+<!--Linea 12: el contenido de la etiqueta "procedencia" esta dentro dentro de la etiqueta de cierre, solo hay que ponerlo dentro de las etiquetas-->
+<!--Linea 14: el nombre de la etiqueta de inicio no concuerda con la etiqueta de fin, yo le he asignado "apellidos"-->
+<!--Linea 15: en las etiqutas no puede haber caracteres especiales como la "/" y el ":", tambien hay un espacio en blanco-->
+<!--Linea 16: en las etiquetas de cierre no tienen nunca atributos-->

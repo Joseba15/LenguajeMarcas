@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proveedores>
+    <proveedor id="1">
+        <datosProveedor>
+            <nombre>Metales Sanchez.SL</nombre>
+            <CIF>65478912</CIF>
+            <direccion>C/Pio Baroja num1</direccion>
+            <telefono>654747789</telefono>
+            <correo>metsanchez@gmail.com</correo>
+            <WEB>www.metalessanchez.com</WEB>
+            <perfiles>
+                <facebook>@metsanchez1</facebook>
+                <twitter>@metsanchez1</twitter>
+            </perfiles>
+        </datosProveedor>
+        <datosContactos>
+            <contacto id="01">
+                <nombre>Jose</nombre>
+                <apellidos>Sanchez</apellidos>
+                <telefonos>
+                    <telefono num="1">998112335</telefono>
+                    <telefono num="2">655441210</telefono>
+                </telefonos>
+                <correo>josessnc@gmail.com</correo>
+            </contacto>
+            <contacto id="02">
+                <nombre>Juana</nombre>
+                <apellidos>Castilla</apellidos>
+                <telefonos>
+                    <telefono num="1">658888999</telefono>
+                    <telefono num="2">647777891</telefono>
+                </telefonos>
+                <correo>juanitahola@gmail.com</correo>
+            </contacto>
+        </datosContactos>
+    </proveedor>
+    <proveedor id="2">
+        <datosProveedor>
+            <nombre></nombre>
+            <CIF></CIF>
+            <direccion></direccion>
+            <telefono></telefono>
+            <correo></correo>
+            <WEB></WEB>
+            <perfiles>
+                <facebook></facebook>
+                <twitter></twitter>
+            </perfiles>
+        </datosProveedor>
+        <datosContactos>
+            <contacto id="03">
+                <nombre></nombre>
+                <apellidos></apellidos>
+                <telefonos>
+                    <telefono num="1"></telefono>
+                    <telefono num="2"></telefono>
+                </telefonos>
+                <correo></correo>
+            </contacto>
+            <contacto id="04">
+                <nombre></nombre>
+                <apellidos></apellidos>
+                <telefonos>
+                    <telefono num="1"></telefono>
+                    <telefono num="2"></telefono>
+                </telefonos>
+                <correo></correo>
+            </contacto>
+        </datosContactos>
+    </proveedor>
+</proveedores>
