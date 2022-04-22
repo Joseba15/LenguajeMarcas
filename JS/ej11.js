@@ -1,20 +1,25 @@
-/*
+
 function  saludar() {
     return 'Hola desde mi funcion';
 }
 let temp= saludar();
-document.getElementById("apart1").textContent=temp;
-*/
+
+let cont=1;
+while(cont<5){
+    document.getElementById("apart1").textContent=temp;
+    cont++;
+}
 
 
 /*
 function saludarNombre(nombre) {
     return 'Hola '+nombre+ ' desde mi funcion'
 }
-let temp= saludarNombre('Joseba');
-document.getElementById("apart1").textContent=temp;
+let temp = saludarNombre('Joseba');
+document.getElementById("apart1").innerHTML=temp;
 */
 
+/*
 function suma(num1,num2) {
     let resultado
 
@@ -26,5 +31,6 @@ function suma(num1,num2) {
 
     return resultado;
 }
-let temp= suma(6,2);
-document.getElementById("apart1").textContent=temp;
+let temp= suma(2,10);
+document.getElementById("apart1").innerHTML="<h2>"+temp+"</h2>";
+*/
