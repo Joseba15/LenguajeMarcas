@@ -5,18 +5,18 @@
     </head>
     <body>
         <h3>Lista de la compra</h3>
-        <ul>
+        <ul id="lista">
             <li>Leche</li>
             <li>Azucar</li>
             <li>Pimienta</li>
             <li>Pollo</li>
             <li>Miel</li>
         </ul>
-        <form>
-            <input type="text" placeholder="Nuevo Elemento" id="texto">
-            <button id="add" onclick="anadirLaLista()">Anadir Elemento</button>
-            <button id="del">Borrar Primer Elemento</button>
-        </form>
+    
+        <input type="text" placeholder="Nuevo Elemento" id="texto">
+        <button id="add" onclick="anadirLaLista()" >Anadir Elemento</button>
+        <button id="del" onclick="borrarPrimerElemento()" >Borrar Primer Elemento</button>
+       
         <script src="ejDOM.js"></script>
         
     </body>
