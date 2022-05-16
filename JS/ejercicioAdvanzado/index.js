@@ -1,9 +1,11 @@
 function crearFila() {
     let tabla= document.getElementById("tablita");
     let nuevoTr= document.createElement("tr");
+
     let nuevoTd1=document.createElement("td");
     let nuevoTd2=document.createElement("td");
     let nuevoTd3=document.createElement("td");
+
     let texto1=document.createTextNode(document.getElementById("td1").value);
     let texto2=document.createTextNode(document.getElementById("td2").value);
     let texto3=document.createTextNode(document.getElementById("td3").value);
@@ -26,12 +28,13 @@ function borrarFila() {
 
 
 function reemplazoFila() {
-    let ask1=prompt("Seleccione la primera fila que quieres reemplazar");
-    let ask2=prompt("Seleccione la segundo fila a reemplazar");
-    let tabla=document.getElementById("tablita");
-    let trAReemplazar1=document.getElementsByTagName("tr")[ask1];
-    let trAReemplazar2=document.getElementsByTagName("tr")[ask2];
-    let aux=trAReemplazar2
-    tabla.appendChild
-    tabla.replaceChild(trAReemplazar1,trAReemplazar2);
+    const laTabla = document.getElementById("tablita");
+
+    let fila1 = parseInt(prompt("Introduce el numero de la fila a cambiar")-1);
+    
+    let fila2 = parseInt(prompt("Introduce la nueva posicion")-1);
+
+    const temp = laTabla.rows[fila1].innerHTML;
+    laTabla.rows[fila1].innerHTML = laTabla.rows[fila2].innerHTML;
+    laTabla.rows[fila2].innerHTML = temp;
 }

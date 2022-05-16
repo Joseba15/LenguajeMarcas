@@ -13,16 +13,17 @@
             border-color: black;
             background-color: lightgrey;
             margin-top: 10px;
+            border-left: 3px;
         }
     </style>
 </head>
 <body>
     <label for="nombre"> Nombre: 
-    <input type="text" name="nombre" id="nombre">
-</label>
-<label for="apellidos"> Apellidos: 
-    <input type="text" name="apellidos" id="apellidos">
-</label>
+        <input type="text" name="nombre" id="nombre">
+    </label>
+    <label for="apellidos"> Apellidos: 
+        <input type="text" name="apellidos" id="apellidos">
+    </label>
     <input id="saludar" type="button" value="saludar" onclick="saludo()">
     <div class="saludo" id="saludo"></div>
     <script src="saludo.js"></script>

@@ -5,32 +5,35 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <table border="1" id="tablita">
-            <tr>
-                <td>1A</td>
-                <td>1B</td>
-                <td>1C</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>2A</td>
-                <td>2B</td>
-                <td>2C</td> 
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>3A</td>
-                <td>3B</td>
-                <td>3C</td>
-                <td>1</td>
-            </tr>
-        </table>
-        <br>
-        <input type="text" id="td1" placeholder="Escribe para columna 1"><input type="button" value="Crear fila" onclick="crearFila()">
-        <input type="button" value="Borrar fila" onclick="borrarFila()"> 
-        <input type="button" value="Reemplazar fila" onclick="reemplazoFila()"><br>
-        <input type="text" id="td2" placeholder="Escribe para columna 2"><br>
-        <input type="text" id="td3" placeholder="Escribe para columna 3"><br>
-        <script src="index.js"></script>
+        <div id="1">
+            <table border="1" id="tablita">
+                <tr>
+                    <td>1A</td>
+                    <td>1B</td>
+                    <td>1C</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2A</td>
+                    <td>2B</td>
+                    <td>2C</td> 
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>3A</td>
+                    <td>3B</td>
+                    <td>3C</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <br>
+            <input type="text" id="td1" placeholder="Escribe para columna 1"><input type="button" value="Crear fila" onclick="crearFila()">
+            <input type="button" value="Borrar fila" onclick="borrarFila()"> 
+            <input type="button" value="Reemplazar fila" onclick="reemplazoFila()">
+            <input type="button" value="Ordenar filas" onclick="ordenarFila()"><br>
+            <input type="text" id="td2" placeholder="Escribe para columna 2"><br>
+            <input type="text" id="td3" placeholder="Escribe para columna 3"><br>
+            <script src="index.js"></script>
+        </div>
     </body>
 </html>
